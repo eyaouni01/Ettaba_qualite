@@ -12,8 +12,7 @@ public class EventRevenue implements RevenueStrategy {
     public float calculerRevenu() {
         System.out.println("*************numbre de ticket totale**************"+event.getNumberTickets());
         System.out.println("*************numbre de ticket totale**************"+event.getNumberTickets());
-        System.out.println("*************numbre de ticket totale**************"+event.getNumberTickets());
-        System.out.println("*************numbre de ticket totale**************"+event.getNumberTickets());
+
         System.out.println("*************numbre de ticket avalable**************"+event.getNumberAvailableTickets());
         System.out.println("Revenue pour ettaba :::::::::::::!!!!!!"+(float)(event.getNumberTickets()-event.getNumberAvailableTickets())*event.getPrice());
         return (float) (event.getNumberTickets()-event.getNumberAvailableTickets())*event.getPrice();

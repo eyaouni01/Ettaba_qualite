@@ -13,11 +13,7 @@ public class ProductRevenue  implements RevenueStrategy {
     @Override
     public float calculerRevenu() {
         System.out.println("!!!!!Revenue produit!!!!!!!!!!!!!!!"+ product.getWeight()*(product.getSoldPrice()- product.getBoughtPrice()) );
-        System.out.println("!!!!!Revenue produit!!!!!!!!!!!!!!!"+ product.getWeight()*(product.getSoldPrice()- product.getBoughtPrice()) );
-        System.out.println("!!!!!Revenue produit!!!!!!!!!!!!!!!"+ product.getWeight()*(product.getSoldPrice()- product.getBoughtPrice()) );
-        System.out.println("!!!!!Revenue produit!!!!!!!!!!!!!!!"+ product.getWeight()*(product.getSoldPrice()- product.getBoughtPrice()) );
-        System.out.println("!!!!!Revenue produit!!!!!!!!!!!!!!!"+ product.getWeight()*(product.getSoldPrice()- product.getBoughtPrice()) );
-        System.out.println("!!!!!Revenue produit!!!!!!!!!!!!!!!"+ product.getWeight()*(product.getSoldPrice()- product.getBoughtPrice()) );
+
         return product.getWeight()*(product.getSoldPrice()- product.getBoughtPrice());
     }
 }

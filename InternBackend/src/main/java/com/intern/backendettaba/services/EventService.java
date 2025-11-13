@@ -61,14 +61,7 @@ public class EventService {
             total+=revenu;
         }
          System.out.println("*************total*****************"+total);
-        System.out.println("*************total*****************"+total);
-        System.out.println("*************total*****************"+total);
-        System.out.println("*************total*****************"+total);
-        System.out.println("*************total*****************"+total);
-        System.out.println("*************total*****************"+total);
-        System.out.println("*************total*****************"+total);
-        System.out.println("*************total*****************"+total);
-        System.out.println("*************total*****************"+total);
+
         return new ResponseEntity<>(total,HttpStatus.OK);
 
     }
